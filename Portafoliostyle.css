@@ -1,13 +1,14 @@
-/*Barra*/
+/*-----------Barra-----------*/
 
 .navbar{
     padding: 1rem;
-    background-color: #f5f6f7;
+    background-color: #0f3056d6;
 }
 
 .navbar-collapse{
     align-items: center;
     justify-content: space-between;
+    
 }
 
 section{
@@ -15,19 +16,44 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+
+.nav-link{
+    color: white;
 }
 
 h1{
     font-size: 2.0rem;
+    color: white;
     font-family: 'Press Start 2P', cursive;
      
 }
 
+.seccion-oscura{
+    color:white;
+    background-color: rgb(30, 43, 59);
+}
 
-/*Hero*/
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 1.5px 0;
+    font-family: "Press Start 2P", cursive;
+}
+
+.seccion-texto{
+    font-size: 1.4rem;
+}
+
+/*-----Hero--------*/
 
 .hero {
-    background-color: #f5f6f7;
+    background-color: #1b1b32;
     min-height: 450px;
     text-align: center;
 }
@@ -47,8 +73,40 @@ h1{
 
 .hero-principal h2 {
     font-size: 1.5rem;
-    color:#615151 ;
+    color:#ffffff ;
+    font-family: 'Press Start 2P', cursive;
 }
+
+
+/*------------About me-------------*/
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/*Exp*/
+
+.experiencia {
+    padding: 40px;
+}
+
+.experiencia .row div {
+    height: 250px;
+    background-color: rgba(128, 63, 128, 0.616);
+    border: 3px solid black;
+}
+
+.experiencia-titulo{
+    font-size:25px;
+    font-weight:bold;
+    margin: 10px 0;
+}
+
 
 
 
@@ -58,4 +116,11 @@ h1{
         display: none;
     }
 
+}
+
+@media screen and (min-widht:700px) {
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+    
 }
