@@ -35,7 +35,7 @@ h1{
 
 .seccion-oscura{
     color:white;
-    background-color: #0f3056d6;
+    background-color: #006324d6;
 }
 
 .seccion-clara {
@@ -212,7 +212,50 @@ h1{
 }
 
 
+/*Contact*/
+.contacto .container{
+    max-width: 1100;
+    min-height: 120px;
+    padding: 20px;
+}
 
+.container .rectangulo{
+    margin-top: -3rem;
+    background-color: rgb(20, 36, 32);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white; 
+}
+
+,.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: black;
+}
 
 /*Icono responsivo*/
 @media screen and (max-width:767px){
