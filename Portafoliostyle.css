@@ -3,6 +3,9 @@
 .navbar{
     padding: 1rem;
     background-color: #0f3056d6;
+    background-image: url(Imagenes/Navbar.svg);
+    background-size: cover;
+
 }
 
 .navbar-collapse{
@@ -72,6 +75,8 @@ h1{
     background-color: #1b1b32;
     min-height: 450px;
     text-align: center;
+    background-image: url(Imagenes/sobremi.svg);
+    background-size: cover;
 }
 
 .hero-principal {
@@ -79,8 +84,8 @@ h1{
 }
 
 .hero-imagen-perfil{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin: 20px;
 }
@@ -98,6 +103,8 @@ h1{
 .sobre-mi {
     height: 500px;
     padding: 10px;
+    background-image: url(Imagenes/pxlsobremi.svg);
+    background-size: cover;
 }
 
 .sobre-mi .contenedor {
