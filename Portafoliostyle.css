@@ -75,7 +75,7 @@ h1{
     background-color: #1b1b32;
     min-height: 450px;
     text-align: center;
-    background-image: url(Imagenes/sobremi.svg);
+    background-image: url(Imagenes/sobremi2.svg);
     background-size: cover;
 }
 
@@ -103,7 +103,7 @@ h1{
 .sobre-mi {
     height: 500px;
     padding: 10px;
-    background-image: url(Imagenes/pxlsobremi.svg);
+    background-image: url(Imagenes/Herof.svg);
     background-size: cover;
 }
 
@@ -116,6 +116,7 @@ h1{
 
 .experiencia {
     padding: 40px 40px 60px 40px;
+    background-image: url(Imagenes/heropc.svg);
 }
 
 .experiencia i {
@@ -163,6 +164,8 @@ h1{
 .proyectos-recientes{
     padding: 40px;
     background-color: #313137;
+    background-image: url(Imagenes/Fondo3.svg); 
+    background-size: cover;
 }
 
 .proyectos-recientes img {
@@ -220,6 +223,11 @@ h1{
 
 
 /*Contact*/
+.contacto{
+    background-image: url(Imagenes/sobremi2.svg);
+    background-size: cover;
+}
+
 .contacto .container{
     max-width: 1100;
     min-height: 120px;
@@ -231,9 +239,10 @@ h1{
     background-color: rgb(20, 36, 32);
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white; 
+    background-image: url(Imagenes/Herof.svg);
 }
 
-,.contacto .row{
+.contacto .row{
     width: 100%;
     display: flex;
     align-items: center;
