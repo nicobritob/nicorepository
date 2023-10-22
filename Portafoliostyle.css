@@ -180,12 +180,12 @@ h1{
 
     padding: 10px;
     border-radius: 10px;
-    display: block;
+    display: inline-block;
     transition: all 0.2s ease;
 }
 
 .proyectos-contenedor{
-    padding-top: 60px;
+    padding-top: 40px;
     margin-bottom: 40px; 
 
 }
@@ -202,7 +202,7 @@ h1{
 .overlay p {
     font-size:70px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .proyecto{
@@ -220,13 +220,14 @@ h1{
 
 .overlay .iconos-contedor{
     display: flex;
+    align-items: center;
 
 }
 
 .overlay i {
     color: black;
     font-size: 125px;
-    margin: 10px;
+    margin: 15px;
 }
 
 
