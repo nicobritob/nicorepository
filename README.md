@@ -1,2 +1,2 @@
 # nicorepository
-Welcome i'ts my portfolio web 
+Welcome it's my portfolio web 
